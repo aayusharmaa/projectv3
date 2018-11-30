@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>i n f o P a d</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <h1><a href="index.html">i n f o<span class="logo_colour">P a d</span></a></h1>
+        </div>
+      </div>
+      <div id="menubar">
+       <ul id="menu">
+          <li ><a href="detail2.html">Details</a></li>
+          <li class="selected"><a href="attendance2.html">Attendance</a></li>
+          <li><a href="marks2.html">Marks</a></li>
+          <li><a href="test2.html">Assessment Test</a></li>
+          <li><a href="mail2.html">Mail</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <h3>Latest Update</h3>
+        <h5>November 22nd, 2018</h5>
+        <p>Student has applied for On Duty Leave, in the following subjects..<br /><a href="#">Read more</a></p>
+        <h5>November 20th, 2018</h5>
+        <p>Marks and Attendance of the student has been updated by Faculty Members.<br /><a href="#">Read more</a></p>
+      </div>
+      <div id="content">
+<h1>Attendance</h1>
+        <table style="width:100%; border-spacing:0;">
+          <tr><th>Subject</th><th>Teacher</th><th>From</th><th>To</th><th>Attendance</th></tr>
+          <tr><td>Data Structures (Java)</td><td>Mukesh Kumar</td><td>July 20, 2018</td><td>November 20, 2018</td><td>90%</td></tr>
+          <tr><td>Java</td><td>Shruti Pathak</td><td>July 20, 2018</td><td>November 20, 2018</td><td>92%</td></tr>
+          <tr><td>Adbms</td><td>Abha Sharma</td><td>July 20, 2018</td><td>November 20, 2018</td><td>85%</td></tr>
+          <tr><td>Software Engineering</td><td>Praveshika Sinval</td><td>July 20, 2018</td><td>November 20, 2018</td><td>80%</td></tr>
+</table>
+        <h2>Update Attendance</h2>
+        <form action="attendance2" method="post">
+          <div class="form_settings">
+            <p><span>From Date</span><input type="text" name="fromdate" value="" /></p>
+            <p><span>To Date</span><input type="text" name="todate" value="" /></p>
+            <p><span>Attendance</span><textarea rows="8" cols="20" name="attendance"></textarea></p>
+            <p><span>Subjects</span><textarea rows="8" cols="20" name="subject"></textarea></p>
+            <p><span>Update</span><input class="checkbox" type="checkbox" name="check" value="" /></p>
+            <p style="padding-top: 15px"><span>&nbsp;</span><input class="submit" type="submit" name="name" value="Update" /></p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+      <p><a href="detail2.html">Details</a> | <a href="attendance2.html">Attendance</a> | <a href="marks2.html">Marks</a> | <a href="test2.html">Assessment Test</a> | <a href="mail2.html">Mail</a></p>
+  </div>
+</body>
+</html>
